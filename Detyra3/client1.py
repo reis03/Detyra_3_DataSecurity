@@ -3,6 +3,7 @@ from threading import Thread
 import tkinter, sys, time
 import RSA
 
+
 def receive():
     """Handles receiving of messages."""
     msg_list.insert(tkinter.END, " Welcome! %s" % NAME)
