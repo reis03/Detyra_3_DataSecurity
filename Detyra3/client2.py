@@ -36,7 +36,7 @@ def on_closing(event = None):
 
 #----tkinter GUI----
 top = tkinter.Tk()
-top.title("Entice")
+top.title("RSA ENCRYPTED CHAT")
 
 messages_frame = tkinter.Frame(top)
 my_msg = tkinter.StringVar()  # For the messages to be sent.

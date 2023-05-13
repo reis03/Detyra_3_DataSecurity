@@ -39,7 +39,7 @@ def handle_client2(client_sock, client_addresses):
 
 #----SOCKET Part----
 HOST = gethostbyname(gethostname())     # get host IP
-PORT = 42000
+PORT = 42300
 BUFFER_SIZE = 1024   # buffer size of receiver
 ADDRESS = (HOST, PORT)  # servers socket address
 
